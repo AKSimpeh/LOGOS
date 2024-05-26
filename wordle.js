@@ -320,152 +320,21 @@ const vocabulary = [
             gender: "m",
             forms: ["χρυσός", "χρυσοῦ", "χρυσῷ", "χρυσόν", "χρυσοί", "χρυσῶν", "χρυσοῖς", "χρυσούς"]
         },
-    
-            {
-                type: "verb",
-                present: "παραγίγνομαι",
-                future: "παραγενήσομαι",
-                aorist: "παρεγενόμην",
-                meaning: "I arrive"
-            },
-            {
-                type: "verb",
-                present: "παρασκευάζω",
-                future: "παρασκευάσω",
-                aorist: "παρεσκεύασα",
-                meaning: "I prepare, get ready"
-            },
-            {
-                type: "verb",
-                present: "πάρειμι",
-                future: "παρέσομαι",
-                meaning: "I am present"
-            },
-            {
-                type: "verb",
-                present: "παρέχω",
-                future: "παρασχήσω",
-                aorist: "παρέσχον",
-                meaning: "I provide, give"
-            },
-            {
-                type: "verb",
-                present: "πάσχω",
-                future: "πείσομαι",
-                aorist: "ἔπαθον",
-                meaning: "I suffer, experience"
-            },
-            {
-                type: "verb",
-                present: "παύω",
-                future: "παύσω",
-                aorist: "ἔπαυσα",
-                meaning: "I stop, cease from"
-            },
-            {
-                type: "verb",
-                present: "πείθομαι",
-                future: "πείσομαι",
-                meaning: "I obey (+dat)"
-            },
-            {
-                type: "verb",
-                present: "πείθω",
-                future: "πείσω",
-                aorist: "ἔπεισα",
-                meaning: "I persuade"
-            },
-            {
-                type: "verb",
-                present: "πειράω",
-                future: "πειράσω",
-                aorist: "ἐπείρασα",
-                meaning: "I try, attempt"
-            },
-            {
-                type: "verb",
-                present: "πέμπω",
-                future: "πέμψω",
-                aorist: "ἔπεμψα",
-                meaning: "I send"
-            },
-            {
-                type: "verb",
-                present: "πίνω",
-                future: "πίομαι",
-                aorist: "ἔπιον",
-                meaning: "I drink"
-            },
-            {
-                type: "verb",
-                present: "πίπτω",
-                future: "πεσοῦμαι",
-                aorist: "ἔπεσον",
-                meaning: "I fall"
-            },
-            {
-                type: "verb",
-                present: "πλέω",
-                future: "πλεύσομαι",
-                aorist: "ἔπλευσα",
-                meaning: "I sail"
-            },
-            {
-                type: "verb",
-                present: "ποιέω",
-                future: "ποιήσω",
-                aorist: "ἐποίησα",
-                meaning: "I make, do"
-            },
-            {
-                type: "verb",
-                present: "πολιορκέω",
-                future: "πολιορκήσω",
-                aorist: "ἐπολιόρκησα",
-                meaning: "I besiege"
-            },
-            {
-                type: "verb",
-                present: "πορεύομαι",
-                future: "πορεύσομαι",
-                aorist: "ἐπορεύθην",
-                meaning: "I go, walk, march"
-            },
-            {
-                type: "verb",
-                present: "πράττω",
-                future: "πράξω",
-                aorist: "ἔπραξα",
-                meaning: "I do, accomplish"
-            },
-            {
-                type: "verb",
-                present: "προσέρχομαι",
-                future: "προσελεύσομαι",
-                aorist: "προσῆλθον",
-                meaning: "I go forward, advance"
-            },
-            {
-                type: "verb",
-                present: "προχωρέω",
-                future: "προχωρήσω",
-                aorist: "προεχώρησα",
-                meaning: "I go forward, advance"
-            },
-            {
-                type: "verb",
-                present: "πυνθάνομαι",
-                future: "πεύσομαι",
-                aorist: "ἐπυθόμην",
-                meaning: "I inquire, learn by inquiry"
-            },
-            {
-                type: "verb",
-                present: "σῴζω",
-                future: "σώσω",
-                aorist: "ἔσωσα",
-                meaning: "I save"
-            }
+        {
+            type: "verb",
+            present: "γράφω",
+            aorist: "ἔγραψα",
+            meaning: "to write",
+            forms: ["γράφω", "γράφεις", "γράφει", "γράφουμεν", "γράφετε", "γράφουσι", "ἔγραψα", "ἔγραψας", "ἔγραψε", "ἔγραψαμεν", "ἔγραψατε", "ἔγραψαν"]
+        },
+        {
+            type: "verb",
+            present: "λύω",
+            aorist: "ἔλυσα",
+            meaning: "to loose, to free",
+            forms: ["λύω", "λύεις", "λύει", "λύομεν", "λύετε", "λύουσι", "ἔλυσα", "ἔλυσας", "ἔλυσε", "ἔλυσαμεν", "ἔλυσατε", "ἔλυσαν"]
+        }
+         
         
         
     
