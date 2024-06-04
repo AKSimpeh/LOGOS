@@ -447,6 +447,8 @@ function update() {
         } else if (!word.includes(letter)) { // If the guessed letter is not in the word
             currTile.classList.add("absent");
         }
+
+        updateKeyboard(letter, currTile.classList); // Update keyboard button color
     }
 
     // If all letters are correct
@@ -494,7 +496,6 @@ function getWordToGuess(vocabulary) {
     const selectedWord = fiveLetterWords[Math.floor(Math.random() * fiveLetterWords.length)];
     return selectedWord;
 }
-
 
 function removeAccents(str) {
     return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
@@ -580,6 +581,26 @@ function getVerbLabel(selectedWordObj) {
     return label;
 }
 
+function updateKeyboard(letter, classList) {
+    const buttons = document.querySelectorAll('#keyboard button');
+    buttons.forEach(button => {
+        if (button.innerText === letter) {
+            if (classList.contains("correct")) {
+                button.classList.remove("present", "absent");
+                button.classList.add("correct");
+            } else if (classList.contains("present")) {
+                if (!button.classList.contains("correct")) {
+                    button.classList.remove("absent");
+                    button.classList.add("present");
+                }
+            } else if (classList.contains("absent")) {
+                if (!button.classList.contains("correct") && !button.classList.contains("present")) {
+                    button.classList.add("absent");
+                }
+            }
+        }
+    });
+}
 
 
 
